@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-section{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(images/bg-upper-01.png);
+}
+
+.heading-info h1{
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.heading-info h1 span{
+    color: orange;
+    font-size: 55px;
+}
+
+.heading-info p{
+    padding-top: 20px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(7, 99, 7), rgb(11, 126, 11));
+    padding: 10px 40px;
+    line-height: 100px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.head-img{
+    width: 90%;
+    margin-top: 5%;
+}
+
+.heading-section2{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.head-img1{
+    width: 80%;
+    margin-left: 150px;
+}
+
+.food-details{
+    text-align: right;
+    width: 50%;
+}
+
+.food-details h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.heading-section3{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.cardimg1{
+    width: 70%;
+}
+
+.foodcard{
+    padding: 40px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.foodcard:hover{
+    box-shadow: 5px 5px 40px gray;
+}
+
+.foodcarddetail{
+    margin-top: 15px;
+}
+
+.carddetails{
+    margin-top: 20px;
+}
+
+#secimg{
+    width: 60%;
+    margin-top: 5%;
+}
+
+.foodmenu{
+    margin-left: 5%;
+    margin-top: 10%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.foodmenu:hover{
+    font-size: 45px;
+    
+}
+
+footer p{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.footerlogo{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    
+}
+
+.footerlogo:hover{
+  width: 50px;
+  height: 50px;
+}
+
+
+.flogo{
+    display: flex;
+    justify-content: center;
+}
